@@ -1,5 +1,5 @@
 import express from 'express';
-import { isLogged } from '../Middlewares/auth.middleware.js';
+import { isLogged } from '../middlewares/auth.middleware.js';
 import {
   homeController,
   signupController,
