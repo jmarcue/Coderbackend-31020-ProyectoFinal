@@ -5,7 +5,7 @@ import cookieParser from 'cookie-parser';
 import { serverConfig } from './configs/server.config.js';
 import { sessionConfig } from './configs/session.config.js';
 import { __dirname, __dirJoin } from './utils/helper.util.js';
-import { isLogged } from './Middlewares/auth.middleware.js';
+import { isLogged } from './middlewares/auth.middleware.js';
 import { logger } from './utils/winston.util.js';
 import { 
   cartRoute,
